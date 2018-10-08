@@ -31,10 +31,9 @@ int main()
 
   }while( !(input=='q'||input=='Q') );
   
-  cout<<"==ITEMS TO BUY==\n";
-  
   if (list.size() >= 1)
   {
+    cout<<"==ITEMS TO BUY==\n";
     for(int index = 0; index<list.size() ; index++)
     {
         cout<<index + 1<<" "<<list[index]<<endl;
